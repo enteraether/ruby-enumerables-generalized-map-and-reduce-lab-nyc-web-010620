@@ -8,13 +8,13 @@ def map(array)
     i += 1
   end
   new
-end  
+end
 
 def reduce(array, sv = nil)
   if sv
     sum = sv
     i = 0
-  else 
+  else
     sum = array[0]
     i = 1
   end
@@ -23,4 +23,4 @@ def reduce(array, sv = nil)
     i += 1
   end
 sum
-end  
+end
